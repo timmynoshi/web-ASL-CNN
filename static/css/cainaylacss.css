@@ -1,0 +1,58 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+.logoHB {
+    width: 200px;
+}
+
+.aslalphabet {
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+.siuu {
+    width: 30px;
+}
+
+.thanhmenu {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.div-login {
+    border: 2px solid gray;
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    overflow: auto;
+
+}
+
+.div-suatrithuc {
+    border: 2px solid gray;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 30px;
+    
+
+}
+
+.lichsu-table {
+    border-radius: 30px;
+}
+
+

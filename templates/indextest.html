@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hệ cơ sở tri thức</title>
+    <link rel="stylesheet" href="/css/cainaylacss.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+
+</head>
+<body>
+    <header>
+        <div class="containe thanhmenu">
+            <div class="row" style="align-items: center;">
+                <div class="col-sm-4" style="justify-content: center;display: flex;">
+                    <a class="btn" href="/Index">
+                            <img src="/images/HBlogo.png" class="logoHB">
+                    </a>
+
+                </div>
+                <div class="col-sm-4" style="justify-content: right;display: flex;">
+                    <h1>ASL Prediction via Webcam</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+
+    <script src="~/js/jquery-3.7.1.min.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/cainaylajs.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
