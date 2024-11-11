@@ -36,7 +36,8 @@ def generate_frames():
         confidence = f"{np.max(pred) * 100:.2f}%"
 
         # Hiển thị kết quả dự đoán trên khung hình
-        cv2.putText(frame, f"{prediction_label} {confidence}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+        cv2.putText(frame, f"{prediction_label.upper()} {confidence}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1,
+                    (0, 255, 0), 2)
 
         # Encode hình ảnh thành JPEG
         ret, buffer = cv2.imencode('.jpg', frame)

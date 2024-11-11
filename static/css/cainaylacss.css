@@ -1,18 +1,18 @@
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
-
-
-
-
+.video-feed {
+    width: 640px;
+    height: 480px;
+    border: 2px solid black;
+    margin-bottom: 80px;
+}
 .logoHB {
     width: 200px;
 }
-
 .aslalphabet {
     height: 300px;
+    padding-left: 100px;
 }
 
 
